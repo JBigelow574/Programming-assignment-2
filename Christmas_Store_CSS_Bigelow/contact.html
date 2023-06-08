@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Christmas Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+    body{
+        font-family:'Courier New', Courier, monospace;
+    }
+    h1{
+        font-size: 33px;
+    }
+    label::first-letter{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    input[type=text]:focus {
+        background-color: lightcyan;
+    }
+    </style>
+</head>
+<body>
+    <img src="background.jpg" class="background" alt="Misty forest">
+    <header role = "banner" class="text-center">
+        <h1>Welcome to Our Christmas Store</h1>
+        <img src="contact_us.webp" alt="Contact us!">
+        <p>This page should be tried in Safari, Chrome or Mozilla.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="deals.html">Today&apos;s Deal</a></li>
+        </ul>
+    </nav>
+    <article>
+        <section>
+            <h1><br><br><br><br><br><br>Contact Us</h1>
+            <form action="index.html" method="post">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Enter your email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="w3review">Your Message</label><br>
+                <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea><br>
+                <input type="checkbox" id="reply" name="reply" value="reply">
+                <label for="reply"> Send a reply to my email</label><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>  
+    </article>
+    <aside>
+        <p> This is the aside part of the web page. </p>
+    </aside >
+    <footer class="text-center fixed-bottom">
+        &copy; 2023 Bigelow
+    </footer >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
